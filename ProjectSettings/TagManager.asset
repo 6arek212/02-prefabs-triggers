@@ -7,6 +7,9 @@ TagManager:
   - Enemy
   - Laser
   - Wall
+  - Projectile
+  - ShieldIndicator
+  - Enemy2
   layers:
   - Default
   - TransparentFX
@@ -14,7 +17,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ex
   - 
   - 
   - 
@@ -43,4 +46,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 776616647
+    locked: 0
+  - name: Forground
+    uniqueID: 583990701
+    locked: 0
+  - name: Player
+    uniqueID: 3918661521
     locked: 0

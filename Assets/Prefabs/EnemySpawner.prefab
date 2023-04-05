@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.25, y: 6.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -43,9 +44,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ab63d9ef6fc24b4792a19faafaad16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabToSpawn: {fileID: 7837289214103786378, guid: aea6176f031eaef4a8a2c395ae5f001e,
-    type: 3}
-  velocityOfSpawnedObject: {x: 0, y: -2, z: 0}
-  minTimeBetweenSpawns: 1
-  maxTimeBetweenSpawns: 3
+  prefabsToSpawn:
+  - {fileID: 7837289214103786378, guid: a7ec4b5ecf42bb349a8c73c3aa2f2739, type: 3}
+  - {fileID: 7837289214103786378, guid: da6dea5e89169e8418f338d7d4877812, type: 3}
+  velocityOfSpawnedObjects:
+  - {x: 0, y: -2, z: 0}
+  - {x: 0, y: -6, z: 0}
+  minTimeBetweenSpawns: 0.5
+  maxTimeBetweenSpawns: 2
   maxXDistance: 0.5
